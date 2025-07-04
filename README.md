@@ -2,7 +2,7 @@
 
 A sophisticated full-stack AI assistant application built with the MERN stack, featuring advanced voice interactions, intelligent responses, and comprehensive smart services.
 
-![MyAssistant Banner](./frontend/src/assets/github-header-image%20(14)_LE_upscale_balanced_x4%20(1).jpg)
+
 
 ## 🚀 Features
 
