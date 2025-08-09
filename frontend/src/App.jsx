@@ -8,6 +8,8 @@ import Home from './pages/Home'
 import Customize2 from './pages/Customize2'
 import Settings from './pages/Settings'
 
+
+
 function App() {
   const {userData,setUserData}=useContext(userDataContext)
   return (
