@@ -22,6 +22,7 @@ const WeatherWidget = ({ isMinimized = false }) => {
   const [location, setLocation] = useState('New York');
   const [error, setError] = useState(null);
 
+  
   // Mock weather data for demonstration
   const mockWeatherData = {
     current: {
