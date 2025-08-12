@@ -4,6 +4,7 @@ import bcrypt from "bcryptjs"
 export const signUp=async (req,res)=>{
 try {
     const {name,email,password}=req.body
+    
 
     // Validate input
     if (!name || !email || !password) {
