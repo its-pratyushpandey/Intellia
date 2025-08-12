@@ -16,6 +16,7 @@ function Customize() {
   const navigate=useNavigate()
      const inputImage=useRef()
 
+  
      const handleImage=(e)=>{
 const file=e.target.files[0]
 setBackendImage(file)
