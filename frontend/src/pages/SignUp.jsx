@@ -17,8 +17,7 @@ const [err,setErr]=useState("")
   const handleSignUp = async (e) => {
     e.preventDefault()
     setErr("")
-    setLoading(true)
-    
+    setLoading(true)    
     try {
       let result = await axios.post(`${serverUrl}/api/auth/signup`, {
         name, 
