@@ -7,7 +7,6 @@ import { BsSpeedometer2 } from "react-icons/bs";
 import { IoLanguage } from "react-icons/io5";
 import { RiEmotionLine, RiSoundModuleLine } from "react-icons/ri";
 import axios from 'axios'
-
 function Settings() {
     const {userData, setUserData, serverUrl} = useContext(userDataContext)
     const navigate = useNavigate()
