@@ -18,8 +18,6 @@ const [err,setErr]=useState("")
     setErr("")
     setLoading(true)
 
-
-    
     try {
       let result = await axios.post(`${serverUrl}/api/auth/signin`, {
         email, 
