@@ -13,7 +13,6 @@ import { FiGrid, FiMaximize2, FiMinimize2 } from 'react-icons/fi';
 import WeatherWidget from './WeatherWidget';
 import NewsWidget from './NewsWidget';
 import EmailWidget from './EmailWidget';
-
 const IntegratedDashboard = ({ onClose }) => {
   const [viewMode, setViewMode] = useState('grid'); // 'grid', 'list', 'focus'
   const [focusedWidget, setFocusedWidget] = useState(null);
