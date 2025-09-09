@@ -15,7 +15,6 @@ import {
 } from 'react-icons/wi';
 import { MdLocationOn, MdRefresh } from 'react-icons/md';
 import { FiEye, FiDroplet } from 'react-icons/fi';
-
 const WeatherWidget = ({ isMinimized = false }) => {
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState([]);
