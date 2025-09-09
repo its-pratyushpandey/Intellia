@@ -10,7 +10,6 @@ import { FiFeather } from "react-icons/fi";
 import userImg from "../assets/user.gif"
 import IntegratedDashboard from '../components/IntegratedDashboard'
 import FeaturesShowcase from '../components/FeaturesShowcase'
-
 function Home() {
   const {userData,serverUrl,setUserData,getGeminiResponse}=useContext(userDataContext)
   const navigate=useNavigate()
