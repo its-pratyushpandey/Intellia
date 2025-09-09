@@ -7,9 +7,7 @@ function Customize2() {
     const {userData,backendImage,selectedImage,serverUrl,setUserData}=useContext(userDataContext)
     const [assistantName,setAssistantName]=useState(userData?.AssistantName || "")
     const [loading,setLoading]=useState(false)
-    const navigate=useNavigate()
-
-    
+    const navigate=useNavigate()  
     const handleUpdateAssistant=async ()=>{
         setLoading(true)
         try {
