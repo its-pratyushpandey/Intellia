@@ -16,6 +16,7 @@ import {
   MdForward,
   MdClose
 } from 'react-icons/md';
+
 import { FiPaperclip, FiUser, FiClock } from 'react-icons/fi';
 import { BiSend } from 'react-icons/bi';
 
