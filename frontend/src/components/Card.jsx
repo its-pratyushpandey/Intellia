@@ -1,7 +1,5 @@
 import React, { useContext } from 'react'
 import { userDataContext } from '../context/UserContext'
-
-
 function Card({image}) {
       const {serverUrl,userData,setUserData,backendImage,setBackendImage,frontendImage,setFrontendImage,selectedImage,setSelectedImage}=useContext(userDataContext)
   return (
