@@ -10,7 +10,6 @@ import {
 } from 'react-icons/md';
 import { FiExternalLink } from 'react-icons/fi';
 import { BiNews } from 'react-icons/bi';
-
 const NewsWidget = ({ isMinimized = false }) => {
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
