@@ -16,7 +16,6 @@ import { FiFeather } from 'react-icons/fi';
 import WeatherWidget from './WeatherWidget';
 import NewsWidget from './NewsWidget';
 import EmailWidget from './EmailWidget';
-
 const FeaturesShowcase = ({ onClose }) => {
   const [activeDemo, setActiveDemo] = useState(null);
 
